@@ -1,0 +1,21 @@
+config_id,config_name,query,answer_length,retrieval_count,selected_evidence
+A,Baseline RAG,How can retrieval systems improve transparency and reduce duplicate evidence?,218,8,0
+A,Baseline RAG,What factors matter when selecting evidence in dense retrieval pipelines?,218,8,0
+A,Baseline RAG,Does dense retrieval consistently outperform sparse retrieval?,218,8,0
+A,Baseline RAG,What are the trade-offs between credibility and recency in evidence ranking?,218,8,0
+B,Baseline + Duplicate Removal,How can retrieval systems improve transparency and reduce duplicate evidence?,218,8,4
+B,Baseline + Duplicate Removal,What factors matter when selecting evidence in dense retrieval pipelines?,218,8,4
+B,Baseline + Duplicate Removal,Does dense retrieval consistently outperform sparse retrieval?,218,8,4
+B,Baseline + Duplicate Removal,What are the trade-offs between credibility and recency in evidence ranking?,218,8,4
+C,B + Credibility + Recency,How can retrieval systems improve transparency and reduce duplicate evidence?,218,8,4
+C,B + Credibility + Recency,What factors matter when selecting evidence in dense retrieval pipelines?,218,8,4
+C,B + Credibility + Recency,Does dense retrieval consistently outperform sparse retrieval?,218,8,4
+C,B + Credibility + Recency,What are the trade-offs between credibility and recency in evidence ranking?,218,8,4
+D,C + Contradiction Detection,How can retrieval systems improve transparency and reduce duplicate evidence?,218,8,4
+D,C + Contradiction Detection,What factors matter when selecting evidence in dense retrieval pipelines?,218,8,4
+D,C + Contradiction Detection,Does dense retrieval consistently outperform sparse retrieval?,218,8,4
+D,C + Contradiction Detection,What are the trade-offs between credibility and recency in evidence ranking?,218,8,4
+E,Full Proposed Conflict-Aware RAG,How can retrieval systems improve transparency and reduce duplicate evidence?,218,8,4
+E,Full Proposed Conflict-Aware RAG,What factors matter when selecting evidence in dense retrieval pipelines?,218,8,4
+E,Full Proposed Conflict-Aware RAG,Does dense retrieval consistently outperform sparse retrieval?,218,8,4
+E,Full Proposed Conflict-Aware RAG,What are the trade-offs between credibility and recency in evidence ranking?,218,8,4

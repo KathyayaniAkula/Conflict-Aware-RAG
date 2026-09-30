@@ -1,0 +1,164 @@
+{
+  "results": [
+    {
+      "config_id": "A",
+      "config_name": "Baseline RAG",
+      "query": "How can retrieval systems improve transparency and reduce duplicate evidence?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 0
+    },
+    {
+      "config_id": "A",
+      "config_name": "Baseline RAG",
+      "query": "What factors matter when selecting evidence in dense retrieval pipelines?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 0
+    },
+    {
+      "config_id": "A",
+      "config_name": "Baseline RAG",
+      "query": "Does dense retrieval consistently outperform sparse retrieval?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 0
+    },
+    {
+      "config_id": "A",
+      "config_name": "Baseline RAG",
+      "query": "What are the trade-offs between credibility and recency in evidence ranking?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 0
+    },
+    {
+      "config_id": "B",
+      "config_name": "Baseline + Duplicate Removal",
+      "query": "How can retrieval systems improve transparency and reduce duplicate evidence?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "B",
+      "config_name": "Baseline + Duplicate Removal",
+      "query": "What factors matter when selecting evidence in dense retrieval pipelines?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "B",
+      "config_name": "Baseline + Duplicate Removal",
+      "query": "Does dense retrieval consistently outperform sparse retrieval?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "B",
+      "config_name": "Baseline + Duplicate Removal",
+      "query": "What are the trade-offs between credibility and recency in evidence ranking?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "C",
+      "config_name": "B + Credibility + Recency",
+      "query": "How can retrieval systems improve transparency and reduce duplicate evidence?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "C",
+      "config_name": "B + Credibility + Recency",
+      "query": "What factors matter when selecting evidence in dense retrieval pipelines?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "C",
+      "config_name": "B + Credibility + Recency",
+      "query": "Does dense retrieval consistently outperform sparse retrieval?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "C",
+      "config_name": "B + Credibility + Recency",
+      "query": "What are the trade-offs between credibility and recency in evidence ranking?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "D",
+      "config_name": "C + Contradiction Detection",
+      "query": "How can retrieval systems improve transparency and reduce duplicate evidence?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "D",
+      "config_name": "C + Contradiction Detection",
+      "query": "What factors matter when selecting evidence in dense retrieval pipelines?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "D",
+      "config_name": "C + Contradiction Detection",
+      "query": "Does dense retrieval consistently outperform sparse retrieval?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "D",
+      "config_name": "C + Contradiction Detection",
+      "query": "What are the trade-offs between credibility and recency in evidence ranking?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "E",
+      "config_name": "Full Proposed Conflict-Aware RAG",
+      "query": "How can retrieval systems improve transparency and reduce duplicate evidence?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "E",
+      "config_name": "Full Proposed Conflict-Aware RAG",
+      "query": "What factors matter when selecting evidence in dense retrieval pipelines?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "E",
+      "config_name": "Full Proposed Conflict-Aware RAG",
+      "query": "Does dense retrieval consistently outperform sparse retrieval?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    },
+    {
+      "config_id": "E",
+      "config_name": "Full Proposed Conflict-Aware RAG",
+      "query": "What are the trade-offs between credibility and recency in evidence ranking?",
+      "answer_length": 218,
+      "retrieval_count": 8,
+      "selected_evidence": 4
+    }
+  ]
+}
